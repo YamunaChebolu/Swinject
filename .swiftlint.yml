@@ -1,10 +1,15 @@
 disabled_rules:
   - force_cast
   - type_name
+  - trailing_comma
+included:
+  - Sources
+  - Tests
 excluded:
   - Sources/Container.Arguments.swift
   - Sources/SynchronizedResolver.Arguments.swift
   - Sources/Resolver.swift
+<<<<<<< HEAD
   - Sample-iOS.playground
   - Carthage
   - Packages
@@ -13,3 +18,6 @@ variable_name:
   min_length:
     warning: 1
     error: 1
+=======
+  - Sources/ServiceEntry.TypeForwarding.swift
+>>>>>>> upstream/master
